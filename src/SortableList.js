@@ -120,10 +120,10 @@ export default class SortableList extends Component {
       });
       } else {
       this.setState({
-      // animated: false,
+      animated: false,
       data: nextData,
-      // containerLayout: null,
-      // rowsLayouts: null,
+      containerLayout: null,
+      rowsLayouts: null,
       order: nextOrder
       });
       }
